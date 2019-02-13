@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 微信UI颜色 -->
+    <!-- 微信灰色背景 -->
+    <color name="wx_bg">#EBEBEB</color>
+    <!-- 微信工具条 -->
+    <color name="wx_actionbar">#22292C</color>
+    <!-- 微信工具条按下 -->
+    <color name="wx_actionbar_pressed">#181D1F</color>
+    <!-- 微信工具条项目分隔线 -->
+    <color name="wx_actionbar_divider">#191B1C</color>
+    <!-- 微信底部选项卡 -->
+    <color name="wx_tab">#FCFCFC</color>
+    <!-- 微信底部选项卡图标 -->
+    <color name="wx_tab_icon">#999999</color>
+    <!-- 微信分隔线 -->
+    <color name="wx_divider">#DADADA</color>
+    <!-- 微信按下 -->
+    <color name="wx_pressed">#D9D9D9</color>
+    <!-- 微信列表项图标 -->
+    <color name="wx_item_icon">#D8D8D8</color>
+    <!-- 微信文本黑 -->
+    <color name="wx_text_black">#363636</color>
+    <!-- 微信文本灰 -->
+    <color name="wx_text_gray">#999999</color>
+    <!-- 微信文本水印 -->
+    <color name="wx_text_watermarker">#BCBCBC</color>
+    <!-- 微信文本连接 -->
+    <color name="wx_text_link">#576B95</color>
+    <!-- 微信红 -->
+    <color name="wx_red">#FF3E3E</color>
+    <!-- 微信绿 -->
+    <color name="wx_green">#45C01A</color>
+    <!-- 微信深绿 -->
+    <color name="wx_green_dark">#298409</color>
+    <!-- 微信浅绿 -->
+    <color name="wx_green_light">#A2E08D</color>
+    <!-- 微信灰 -->
+    <color name="wx_gray">#7F7F7F</color>
+    <!-- 微信浅灰 -->
+    <color name="wx_gray_light">#E5E5E5</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+</resources>

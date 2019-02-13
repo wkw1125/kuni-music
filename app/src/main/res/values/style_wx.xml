@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 微信UI风格 -->
+
+    <!-- 绿色按钮 -->
+    <style name="wx_greenbutton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/selector_wx_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 微信弹窗 -->
+    <style name="wx_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item> <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item> <!-- 无标题 -->
+        <item name="android:windowBackground">@drawable/transparent</item> <!-- 自己想要的背景 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景内容模糊 -->
+    </style>
+
+    <!-- 不可点击项目 -->
+    <style name="UnClickableItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- 可点击项目 -->
+    <style name="ClickableItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@drawable/selector_list_item</item>
+        <item name="android:clickable">true</item>
+        <item name="android:longClickable">true</item>
+    </style>
+
+    <!-- 水平可点击项目 -->
+    <style name="HorizonItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/selector_list_item</item>
+        <item name="android:clickable">true</item>
+        <item name="android:longClickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- 简单文本框（无背景） -->
+    <style name="SimpleEditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- TextView作为标签 -->
+    <style name="TextViewAsLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textColor">@color/wx_text_gray</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- TextView作为内容 -->
+    <style name="TextViewAsContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- View作为水平分隔符 -->
+    <style name="ViewAsDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/wx_divider</item>
+    </style>
+
+    <!-- View作为垂直分隔符 -->
+    <style name="ViewAsVerticalDivider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/wx_divider</item>
+    </style>
+
+    <!-- ImageView作为下一步标志 -->
+    <style name="ImageViewAsNextMark">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:src">@drawable/ic_action_next_item</item>
+    </style>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyBackground"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/wx_actionbar">
+    <!-- 通用顶部工具栏，通过按钮显隐配置需求 -->
+    <!-- toLeftOf和toRightOf的参数需要在使用它们之前定义，否则报错 -->
+    <!-- 左对齐 -->
+    <ImageButton
+        android:id="@+id/ibtnBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/selector_ibtn_back"
+        android:contentDescription="@string/sysback"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ibtnBack"
+        android:text="@string/systitle"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    <!-- 右对齐 -->
+    <ImageButton
+        android:id="@+id/ibtnMore"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/selector_ibtn_more"
+        android:contentDescription="@string/sysmore"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/ibtnMore"
+        android:background="@drawable/selector_wx_barbutton"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ibtnNew"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/btnTextButton"
+        android:background="@drawable/selector_ibtn_new"
+        android:contentDescription="@string/sysadd"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ibtnQuery"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/ibtnNew"
+        android:background="@drawable/selector_ibtn_search"
+        android:contentDescription="@string/syssearch"
+        android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kuni.activity.SettingsActivity">
+
+    <LinearLayout
+        style="@style/HorizonItem"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/songdir"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/etDir"
+            style="@style/SimpleEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="@string/ht_songdir"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ViewAsDivider"></LinearLayout>
+
+    <LinearLayout
+        style="@style/HorizonItem"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/test"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/etTest"
+            style="@style/SimpleEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="@string/ht_test"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

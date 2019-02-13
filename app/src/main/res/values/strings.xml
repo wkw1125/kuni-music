@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">酷你音乐</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Kuni Music -->
+    <string name="song">歌曲</string>
+    <string name="singer">歌手</string>
+    <string name="duration">时长</string>
+    <string name="songdir">歌曲目录</string>
+    <string name="ht_songdir">输入歌曲目录(功能未实现)</string>
+    <string name="test">Testing</string>
+    <string name="ht_test">SharedPreferences测试</string>
+    <string name="mylist">我的歌单</string>
+    <string name="eq">均衡器</string>
+    <string name="scantip">正在扫描本机音乐</string>
+    <string name="timezero">0:00</string>
+    <string name="playlist">播放队列</string>
+    <string name="clear">清空</string>
+
+    <!-- Strings related to login -->
+    <string name="blank"></string>
+
+    <item name="tag" type="id">tag</item>
+    <item name="tagdata" type="id">tagdata</item>
+
+    <string name="sysback">返回</string>
+    <string name="sysmore">更多</string>
+    <string name="systitle">标题</string>
+    <string name="sysadd">添加</string>
+    <string name="syssearch">搜索</string>
+    <string name="syscollapse">收起</string>
+    <string name="unknowaction">未识别的指令</string>
+    <string name="sysDate">日期</string>
+    <string name="sysText">文本</string>
+    <string name="sysicon">图标</string>
+    <string name="serverip">服务器IP</string>
+    <string name="serverport">端口号</string>
+    <string name="msgcopy">已复制</string>
+    <string name="msgdelete">已删除</string>
+    <string name="msgwait">请稍候</string>
+    <string name="msgdwsb">定位失败</string>
+    <string name="msgzzsx">正在刷新</string>
+    <string name="lbname">名称</string>
+    <string name="lbcomment">备注</string>
+    <string name="navi">导航</string>
+    <string name="copy">复制</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="lbrefresh">刷新</string>
+    <string name="lbclear">清空</string>
+    <string name="lbMap">地图</string>
+    <string name="user">用户</string>
+    <string name="lbmap">地图</string>
+    <string name="more">更多</string>
+    <string name="lbyhxx">用户信息</string>
+    <string name="lbxjyh">新建用户</string>
+    <string name="lbbjyh">编辑用户</string>
+    <string name="lbdetail">详情</string>
+    <string name="sysok">确定</string>
+    <string name="syslocation">定位</string>
+    <string name="lbaddress">地址</string>
+    <string name="htzero">0.0</string>
+    <string name="htyhm">填写用户名</string>
+    <string name="htmm">填写登陆密码</string>
+    <string name="htlx">选择用户类型</string>
+    <string name="htxmm">填写新密码</string>
+    <string name="htysmm">填写原始密码</string>
+    <string name="htqrmm">再次填写确认</string>
+    <string name="htxm">填写真实姓名</string>
+    <string name="httel">填写联系电话</string>
+    <string name="save">保存</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="normal">正常</string>
+    <string name="unnormal">异常</string>
+    <string name="lbwjmm">忘记密码?</string>
+    <string name="lbcspz">参数配置</string>
+    <string name="me">我</string>
+    <string name="xgmm">修改密码</string>
+    <string name="srmm">输入密码</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="lbqhyh">切换用户</string>
+    <string name="exit">退出</string>
+    <string name="oldpwd">原始密码</string>
+    <string name="newpwd">新密码</string>
+    <string name="checkpwd">确认密码</string>
+    <string name="appversion">Beta 1.0</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_my_action_bar">MyActionBarActivity</string>
+    <string name="title_activity_favor">FavorActivity</string>
+    <string name="playlistsize">( 0 )</string>
+    <string name="close">关闭</string>
+    <string name="divider">-</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_recond">RecondActivity</string>
+
+</resources>
